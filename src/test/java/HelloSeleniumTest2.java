@@ -14,6 +14,6 @@ public class HelloSeleniumTest2 {
     @Test
     public void smarterTest(){
         WebDriver driver = new ChromeDriver();
-        driver.get("https://github.com/BalamiRR");
+        driver.get("https://github.com/BalamiRR/");
     }
 }

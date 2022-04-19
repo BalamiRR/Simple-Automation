@@ -8,7 +8,7 @@ public class HelloSeleniumTest {
     public void firstTest(){
         System.setProperty("webdriver.chrome.driver","resources/windows/chromedriver.exe");
         WebDriver driver = new ChromeDriver();
-        driver.get("www.google.com");
+        driver.get("www.google.com"/);
     }
 }
 
