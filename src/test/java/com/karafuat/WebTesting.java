@@ -91,7 +91,7 @@ public class WebTesting {
         System.setProperty("webdriver.chrome.driver","resources/windows/chromedriver.exe");
 
         // Start session (open browser)
-        WebDriver driver = new ChromeDriver();
+        WebDriver driver = new ChromeDriver(); 
 
         // Navigate
         driver.get("https://www.saucedemo.com/");
